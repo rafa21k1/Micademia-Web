@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.schedule-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo de las celdas de la tabla */
+.schedule-table th, .schedule-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para las cabeceras de la tabla */
+.schedule-table th {
+    background-color: #0f44a7;
+    color: white;
+}
+
+
+/* Estilo para las filas de la tabla */
+.schedule-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo de las celdas de los días */
+.schedule-table td {
+    background-color: #f9f9f9;
+}
+
+/* Resaltar la hora */
+.schedule-table td:first-child {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para resaltar las fechas */
+.schedule-table td strong {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Mejorar la legibilidad al pasar el mouse */
+.schedule-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilos responsivos: Hacer que la tabla sea más pequeña en pantallas pequeñas */
+@media (max-width: 768px) {
+    .schedule-container {
+        width: 95%;
+    }
+
+    .schedule-table {
+        font-size: 0.9rem;
+    }
+
+    .schedule-table th, .schedule-table td {
+        padding: 10px;
+    }
+}
+

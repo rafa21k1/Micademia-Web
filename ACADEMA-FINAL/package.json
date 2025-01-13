@@ -1,0 +1,13 @@
+{
+  "name": "jsondb",
+  "version": "1.0.0",
+  "description": "Consulta API",
+  "main": "index.html",
+  "scripts": {
+    "json-server": "json-server --watch BBDDJSON/users.json",
+    "start": "npm run json-server"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
