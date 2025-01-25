@@ -1,0 +1,32 @@
+[
+    {
+      "id": "0",
+      "email": "juan.perez@email.com",
+      "password": "Contraseña123!",
+      "username": "jp25"
+    },
+    {
+      "id": "1",
+      "email": "maria.lopez@email.com",
+      "password": "MiContraseña2024#",
+      "username": "mlopez"
+    },
+    {
+      "id": "2",
+      "email": "carlos.gomez@email.com",
+      "password": "Passw0rd2023!",
+      "username": "cgomez"
+    },
+    {
+      "id": "3",
+      "email": "ana.martinez@email.com",
+      "password": "Seguro&Contraseña2023",
+      "username": "amart"
+    },
+    {
+      "id": "4",
+      "email": "luis.rodriguez@email.com",
+      "password": "ContraseñaSegura_99",
+      "username": "luisr"
+    }
+]
